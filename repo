@@ -5,7 +5,7 @@
 import os
 REPO_URL = os.environ.get('REPO_URL', None)
 if not REPO_URL:
-  REPO_URL = 'https://github.com/DrinkTeaTeam/git-repo'
+  REPO_URL = 'http://39.107.14.48:3882/code/software/efy-public/repo.git'
 REPO_REV = 'master'
 
 # Copyright (C) 2008 Google Inc.
